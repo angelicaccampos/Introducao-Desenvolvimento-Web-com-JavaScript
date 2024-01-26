@@ -15,6 +15,7 @@ Repositorio para armazenar o resultado dos meus estudos do curso de Introdução
 |Aulas  |Conteudo|
 |-----|-----|
 |Introdução|Introdução a CSS, HTML e ao JavaScript voltado para web, e Protocolo cliente servidor|
+|Criando um Projeto com HTML/CSS para Listagem de Pokémon|
 
 ## ⏲ Status do Repositório
 
