@@ -10,12 +10,15 @@ Repositorio para armazenar o resultado dos meus estudos do curso de Introdução
 
 [Introdução à Web da Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web)
 
+[PokeAPI](https://pokeapi.co/)
+
+
 ## 🖥 Aulas de Introdução ao Desenvolvimento Web com JavaScript
 
 |Aulas  |Conteudo|
 |-----|-----|
 |Introdução|Introdução a CSS, HTML e ao JavaScript voltado para web, e Protocolo cliente servidor|
-|Criando um Projeto com HTML/CSS para Listagem de Pokémon|
+|Criando um Projeto com HTML/CSS para Listagem de Pokémon|Estilização da listagem, Adicionando a imagem, Adicionando a font, layout da imagem|
 
 ## ⏲ Status do Repositório
 
