@@ -19,6 +19,7 @@ Repositorio para armazenar o resultado dos meus estudos do curso de Introdução
 |-----|-----|
 |Introdução|Introdução a CSS, HTML e ao JavaScript voltado para web, e Protocolo cliente servidor|
 |Criando um Projeto com HTML/CSS para Listagem de Pokémon|Estilização da listagem, Adicionando a imagem, Adicionando a font, layout da imagem|
+|Dominando o Protocolo HTTP e Integrando com a PokeAPI|Introdução a APIs|
 
 ## ⏲ Status do Repositório
 
