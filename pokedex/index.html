@@ -26,136 +26,46 @@
     <style>
 
     </style>
+
 </head>
 
 <body>
+    <img class="logo" src="pokeball.png">
+    <img class="logo2" src="pokeball.png">
+
+
     <section class="content">
-
         <h1 class="title">Pokedex</h1>
-        <ol class="pokemons">
-            <li class="pokemon">
-                <span class="number"> 001</span>
-                <span class="nome"> Pokemon1</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-                        alt="Pokemon 1">
-                </div>
-            </li>
 
-            <li class="pokemon">
-                <span class="number"> 002</span>
-                <span class="nome"> Pokemon2</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
-                        alt="Pokemon 2">
-                </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquisar Pokemon">
+            <button id="searchButton" onclick="search()" type="button">
+                Buscar
+            </button>
+        </div>
 
-            <li class="pokemon">
-                <span class="number"> 003</span>
-                <span class="nome"> Pokemon3</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg"
-                        alt="Pokemon 3">
-                </div>
+        <ol id="pokemonList" class="pokemons">
 
-            <li class="pokemon">
-                <span class="number"> 004</span>
-                <span class="nome"> Pokemon4</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg"
-                        alt="Pokemon 4">
-                </div>
-
-            <li class="pokemon">
-                <span class="number"> 005 </span>
-                <span class="nome"> Pokemon5</span>
-                <span class="nome"> </span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
-                        alt="Pokemon 5">
-                </div>
-
-            <li class="pokemon">
-                <span class="number"> 006</span>
-                <span class="nome">Pokemon6</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg"
-                        alt="Pokemon 6">
-                </div>
-            <li class="pokemon">
-                <span class="number"> 007</span>
-                <span class="nome">Pokemon7</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg"
-                        alt="Pokemon 7">
-                </div>
-            <li class="pokemon">
-                <span class="number"> 008</span>
-                <span class="nome">Pokemon8</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg"
-                        alt="Pokemon 8">
-                </div>
-            <li class="pokemon">
-                <span class="number"> 009</span>
-                <span class="nome">Pokemon9</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg"
-                        alt="Pokemon 9">
-                </div>
-            <li class="pokemon">
-                <span class="number"> 010</span>
-                <span class="nome">Pokemon10</span>
-                <div class="detail">
-                    <ol class="types">
-                        <li class="type"> ddd</li>
-                        <li class="type"> ddd</li>
-                    </ol>
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10.svg"
-                        alt="Pokemon 10">
-                </div>
-
+            <!---Pokemons-->
 
         </ol>
+
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Mais
+            </button>
+
+        </div>
+
+        <div id="searchResults">
+            <!-- Aqui você pode exibir os resultados da pesquisa -->
+        </div>
+        
     </section>
 
     <!--js-->
+    <script src="/assets/js/pokemonmodel.js"></script>
+    <script src="/assets/js/pokeapi.js"></script>
     <script src="/assets/js/main.js"></script>
 
 </body>
