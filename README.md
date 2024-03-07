@@ -10,8 +10,6 @@ Repositorio para armazenar o resultado dos meus estudos do curso de Introdução
 
 [Introdução à Web da Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web)
 
-[PokeAPI](https://pokeapi.co/)
-
 
 ## 🖥 Aulas de Introdução ao Desenvolvimento Web com JavaScript
 
