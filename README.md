@@ -21,5 +21,5 @@ Repositorio para armazenar o resultado dos meus estudos do curso de Introdução
 
 ## ⏲ Status do Repositório
 
-[![GitHub language count](https://img.shields.io/github/languages/count/angelicaccampos/Primeiros-Passos-com-JavaScript)](https://github.com/angelicaccampos/Primeiros-Passos-com-JavaScript)
-[![GitHub last commit](https://img.shields.io/github/last-commit/angelicaccampos/Primeiros-Passos-com-JavaScript)](https://github.com/angelicaccampos/Primeiros-Passos-com-JavaScript)
+[![GitHub language count](https://img.shields.io/github/languages/count/angelicaccampos/Introducao-Desenvolvimento-Web-com-JavaScript)](https://github.com/angelicaccampos/Introducao-Desenvolvimento-Web-com-JavaScript)
+[![GitHub last commit](https://img.shields.io/github/last-commit/angelicaccampos/Introducao-Desenvolvimento-Web-com-JavaScript)](https://github.com/angelicaccampos/Introducao-Desenvolvimento-Web-com-JavaScript)
